@@ -1,0 +1,70 @@
+/* Arquivo: styles.css */
+
+/* Estilo geral */
+body {
+    background-color: #333; /* Preto */
+    color: #FFA500; /* Laranja */
+    font-family: Arial, sans-serif;
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 250px;
+    background-color: #000; /* Preto */
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: #FFA500; /* Laranja */
+}
+
+.sidebar-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FFA500; /* Laranja */
+}
+
+.sidebar-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-list li {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #111; /* Preto mais claro */
+    text-align: center;
+}
+
+.sidebar-list li:hover {
+    background-color: #222; /* Preto ainda mais claro */
+}
+
+.sidebar-list a {
+    color: #FFA500; /* Laranja */
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar-list a:hover {
+    color: #FFD700; /* Laranja mais claro */
+}
+
+/* Conteúdo principal */
+.content {
+    margin-left: 270px;  /* Ajusta o conteúdo para a direita da sidebar */
+    padding: 20px;
+    background-color: #333; /* Preto */
+    color: #FFA500; /* Laranja */
+}
+
+/* Gráficos */
+.dash-graph {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #444; /* Preto mais claro */
+    color: #FFA500; /* Laranja */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
